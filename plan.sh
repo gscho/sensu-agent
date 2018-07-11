@@ -1,5 +1,5 @@
 go_pkg="github.com/sensu/sensu-go"
-pkg_name=sensu-go
+pkg_name=sensu-agent
 pkg_origin=gscho
 pkg_version="2.0.0-beta.2-4"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
