@@ -46,6 +46,6 @@ suites:
       service_update_strategy: rolling
       service_topology: leader
       hab_sup_bind:
-        - sensu-backend:sensu-backend.default
+        - backend:sensu-backend.default
       hab_sup_peer:
         - sensu-backend
