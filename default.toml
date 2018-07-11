@@ -1,3 +1,48 @@
-# Use this file to templatize your application's native configuration files.
-# See the docs at https://www.habitat.sh/docs/create-packages-configure/.
-# You can safely delete this file if you don't need it.
+#
+# authentication configuration
+#
+id = ""
+organization = "default"
+environment = "default"
+subscriptions = ""
+backend-urls = [
+  "ws://127.0.0.1:8081"
+]
+
+user = "agent"
+password = "P@ssw0rd!"
+
+#
+# api configuration
+#
+api-host = "127.0.0.1"
+api-port = 3031
+disable-api = false
+
+#
+# socket configuration
+#
+disable-sockets = false
+socket-host = "127.0.0.1"
+socket-port = 3030
+
+#
+# statsd configuration
+#
+statsd-disable = false
+statsd-event-handlers = ""
+statsd-flush-interval = 10
+statsd-metrics-host = "127.0.0.1"
+statsd-metrics-port = 8125
+
+#
+# other
+#
+cache-dir = "/var/cache/sensu/"
+deregister = false
+deregistration-handler = ""
+keepalive-timeout = 120
+keepalive-interval = 20
+custom-attributes = ""
+log-level = "warn"
+redact = ""
