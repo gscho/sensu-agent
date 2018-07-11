@@ -1,0 +1,9 @@
+I, [2018-07-11T15:50:52.293302 #87892]  INFO -- sensu-agent-centos-74: -----> Destroying <sensu-agent-centos-74>...
+I, [2018-07-11T15:50:52.382399 #87892]  INFO -- sensu-agent-centos-74: PID                 USER                TIME                COMMAND
+I, [2018-07-11T15:50:52.382561 #87892]  INFO -- sensu-agent-centos-74: 12019               root                0:00                /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=no -o PasswordAuthentication=yes -o UsePrivilegeSeparation=no -o PidFile=/tmp/sshd.pid
+I, [2018-07-11T15:50:52.382840 #87892]  INFO -- sensu-agent-centos-74: 12191               root                0:00                sudo -E hab sup run --bind sensu-backend:sensu-backend.default --peer sensu-backend --topology leader --strategy rolling --channel stable
+I, [2018-07-11T15:50:52.382908 #87892]  INFO -- sensu-agent-centos-74: 12194               root                0:02                /hab/pkgs/core/hab-launcher/7797/20180625172404/bin/hab-launch run --bind sensu-backend:sensu-backend.default --peer sensu-backend --topology leader --strategy rolling --channel stable
+I, [2018-07-11T15:50:52.382950 #87892]  INFO -- sensu-agent-centos-74: 12218               root                0:01                /hab/pkgs/core/hab-sup/0.58.0/20180629150614/bin/hab-sup run --bind sensu-backend:sensu-backend.default --peer sensu-backend --topology leader --strategy rolling --channel stable
+I, [2018-07-11T15:50:53.216788 #87892]  INFO -- sensu-agent-centos-74: 87e5bdfe5d2bf480b3f5365740890f3341f94f40814c27a02ecd4a1f397fd09d
+I, [2018-07-11T15:50:53.503691 #87892]  INFO -- sensu-agent-centos-74: 87e5bdfe5d2bf480b3f5365740890f3341f94f40814c27a02ecd4a1f397fd09d
+I, [2018-07-11T15:50:53.532068 #87892]  INFO -- sensu-agent-centos-74: Finished destroying <sensu-agent-centos-74> (0m1.24s).
