@@ -11,7 +11,7 @@ pkg_shasum="54b93c8e54fd07dc90e7a0c840e5d93c43055499f612325c6d94d8f66f7e42e9"
 pkg_build_deps=(core/which)
 pkg_bin_dirs=(bin)
 pkg_binds_optional=(
-  [sensu-backend]="port"
+  [backend]="port"
 )
 
 # pkg_description="Some description."

@@ -5,7 +5,7 @@ id: "{{cfg.id}}"
 organization: "{{cfg.organization}}"
 environment: "{{cfg.environment}}"
 subscriptions: "{{cfg.subscriptions}}"
-{{#if bind.sensu-backend}}
+{{#if bind.backend}}
 backend-url:
 {{~#each bind.backend.members as |member|}}
   - "ws://{{member.sys.ip}}:{{member.cfg.port}}"
