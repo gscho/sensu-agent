@@ -1,10 +1,10 @@
 ##
 # authentication configuration
 ##
-id = ""
+id = "hab-sensu-agent"
 organization = "default"
 environment = "default"
-subscriptions = ""
+subscriptions = "linux"
 backend-urls = [
   "ws://127.0.0.1:8081"
 ]
@@ -38,7 +38,6 @@ statsd-metrics-port = 8125
 ##
 # other
 ##
-cache-dir = "/var/cache/sensu/"
 deregister = false
 deregistration-handler = ""
 keepalive-timeout = 120

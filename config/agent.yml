@@ -47,7 +47,7 @@ statsd-metrics-port: {{cfg.statsd-metrics-port}}
 #
 # other
 #
-cache-dir: "{{cfg.cache-dir}}"
+cache-dir: "{{pkg.svc_data_path}}/sensu"
 deregister: "{{cfg.deregister}}"
 deregistration-handler: "{{cfg.deregistration-handler}}"
 keepalive-timeout: {{cfg.keepalive-timeout}}
