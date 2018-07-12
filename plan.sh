@@ -1,4 +1,3 @@
-go_pkg="github.com/sensu/sensu-go"
 pkg_name=sensu-agent
 pkg_filename=sensu-agent
 pkg_origin=gscho
