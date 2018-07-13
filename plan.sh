@@ -7,6 +7,7 @@ pkg_license=("Apache-2.0")
 pkg_source="https://storage.googleapis.com/sensu-binaries/$pkg_version/linux/amd64/$pkg_filename"
 pkg_svc_run="sensu-agent start -c $pkg_svc_config_path/agent.yml"
 pkg_shasum="5825044fa69edc27fc74769001076c716a855a82103224727438f3ec0bbe8f90"
+pkg_deps=(core/curl)
 pkg_bin_dirs=(bin)
 pkg_binds_optional=(
   [backend]="port"
